@@ -52,24 +52,24 @@ export default function Modal({ user, setIsModalOpen, setList }) {
           </div>
           <div className="modal-body relative p-4">
             <div className="flex flex-wrap -mx-3 mb-2">
-              <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+              <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <input
                   type="text"
                   name="login"
                   value={localUser.login}
                   onChange={handleChange}
-                  class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                   placeholder="Username"
                 />
               </div>
 
-              <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+              <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <input
                   type="text"
                   name="html_url"
                   value={localUser.html_url}
                   onChange={handleChange}
-                  class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                   placeholder="Profile URL"
                 />
               </div>
